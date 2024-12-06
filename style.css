@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    background-image: url("https://www.unesco.org/sites/default/files/styles/paragraph_medium_desktop/article/2024-07/shutterstock_2285640349%20%281%29.jpg.webp?itok=sDcOaZFk");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* main */
+.main-container {
+    display: flex;
+    margin: auto;
+}
+
+/* left container */
+.left-img img{
+    border-radius: 25px;
+    margin: 40px;
+    margin-left: 20px;
+    padding-left: 50px;
+    width: 400px;
+    height: 600px;
+
+}
+
+/* right container */
+.right-container{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    margin-right: 20px;
+}
+
+.right-container .description{
+    background-color: rgb(21, 139, 179);
+    margin: 20px;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    height: 100px;
+    width: 610px;
+}
+
+.right-container .description h2{
+    font-size: 20px;
+    color: blue;
+}
+
+.right-container .description p{
+    font-size: 16px;
+    color: white;
+}
+
+.right-container .image-con{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.right-container .image-con img{
+    height: 200px;
+    width: 325px;
+    /* padding: 10px; */
+    border-radius: 50px;
+}
+
+.right-container .image-con .img1 img {
+    border: 2px solid lightseagreen;
+    box-shadow: 5px 8px 10px lightseagreen;
+}
+
+.right-container .image-con .img2 img {
+    border: 2px solid lightseagreen;
+    box-shadow: 5px 8px 10px lightseagreen;
+}
+
+.right-container .form{
+    margin: 20px;
+    background-color: rgb(21, 139, 179);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+
+form{
+    padding: 20px 30px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.form h2{
+    font-weight: bold;
+    font-size:20px;
+    color:blue;
+}
+
+.input-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.input-box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-box label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.input-box input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    width: 90%;
+}
+
+
+.submit-button {
+    background-color: rgb(50, 50, 211);
+    color: white;
+    font-size: 26px;   
+    border-radius: 10px;
+    padding: 10px;
+}
